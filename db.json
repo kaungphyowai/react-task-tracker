@@ -17,6 +17,12 @@
       "day": "Today",
       "reminder": true,
       "id": 7
+    },
+    {
+      "text": "Watching Friends",
+      "day": "Today",
+      "reminder": true,
+      "id": 8
     }
   ]
 }
