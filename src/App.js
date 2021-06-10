@@ -36,7 +36,7 @@ function App() {
   }
   return (
     <div className="container">
-      <Header onClickAdd={() => setShowAddTask(!showAddTask)} />
+      <Header onClickAdd={() => setShowAddTask(!showAddTask)} showAdd={showAddTask} />
       {showAddTask && <AddTask onAdd={addTask} />}
       {tasks.length > 0 ? <Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder} /> : "There is no task"}
     </div>
